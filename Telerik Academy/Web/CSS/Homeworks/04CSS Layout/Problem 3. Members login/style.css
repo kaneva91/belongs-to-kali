@@ -1,0 +1,90 @@
+body{
+    margin: 15pxpx;
+    padding: 0px;
+}
+#wrapper{
+    border: 2px solid #615446;
+    border-radius: 15px;
+    background: #3B3B3B;
+    width: 850px;
+}
+#wrapper header form{
+   background: linear-gradient(to bottom, #3B3B3B 60%, #252525);
+   border-radius: 15px;
+   height: 100px;
+}
+#wrapper header form img{
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#wrapper header form label{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Baskerville Old Face, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 35px;
+}
+#wrapper header form input[type=text]{
+    border: 2px solid #4E5963;
+    height: 25px;
+    padding-left: 20px;  
+}
+#wrapper header form #input-name{
+   position: absolute;
+    top: 40px;
+    left: 360px;
+}
+#wrapper header form #input-email{
+     position: absolute;
+    top: 40px;
+    left: 560px;
+}
+#wrapper header form #btn-submit{
+    position: absolute;
+    left: 760px;
+    margin-top: 32px;
+    background: url(img/but.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;    
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+    width:80px;
+    height:25px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+#wrapper main{
+    padding:20px;
+}
+#wrapper main h1{
+    color: #DEC31F;
+    font-family: Baskerville Old Face, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#wrapper main article{
+    color: #919191;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding-top: 0px;
+}
+#wrapper main article p>span{
+    display: block;
+}
+#wrapper main article p #diff-text{
+    color:white;
+}
+#wrapper main article p a{
+    text-decoration: none;
+    color: #919191;
+}
+#wrapper main article p a:hover{
+    text-decoration: underline;
+    color: white;
+}

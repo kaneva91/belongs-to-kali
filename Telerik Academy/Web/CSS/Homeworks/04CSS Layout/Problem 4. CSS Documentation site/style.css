@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Agency FB, Verdana, Tahoma, sans-serif;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    background: #F1F1F1;
+    margin-left: 1px;
+    display: flex;
+}
+#wrapper nav{   
+    width: 20%;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+#wrapper nav #home {
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper nav #home img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+#wrapper nav #home h3{
+    font-size: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;   
+}
+#wrapper nav .nav-items{
+    padding-left:4px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+   font-size: 22px;
+}
+#wrapper nav .nav-items h4{
+    color: #8A0303;
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper nav .nav-items ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper main{
+    width: 70%;
+    height: 100;
+    background: white;
+    border: 2px solid #999999;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+#wrapper main div#header-content{
+    border-bottom: 3px solid #999999;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}#wrapper main div input[type=submit]{
+    width: 150px;
+    height: 30px;
+    border: 2px solid black;
+    font-family: Agency FB, Verdana, Tahoma, sans-serif;
+    font-size: 19px;
+    background: white;
+}
+#wrapper main div input.prev-btn{
+    background: url(imgs/arrowhead-prev.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 40px;
+    background-position-x:-12px;
+}
+#wrapper main div input.next-btn{
+    background: url(imgs/arrowhead-next.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 40px;
+    background-position-x: 118px;
+}
+#wrapper main article{  
+  
+    font-size: 21px;
+    margin-bottom: 35px;
+}
+#wrapper main article h4{
+    background: #999999;
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+    margin: 0px;
+}
+#wrapper main article a,#wrapper aside div a{
+    color: #B0514E;
+}
+#wrapper main article#css-tutorial div{
+    height: 265px;
+    display: flex;
+}
+#wrapper main article#css-tutorial img{
+    width: 160px;
+    padding-top: 40px;
+}
+#wrapper main article#css-tutorial p{
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+#wrapper main article#css-tutorial a{
+    padding-left: 15px;
+
+} 
+#wrapper main div#main-bottom{
+    border-top: 3px solid #999999;
+    border-bottom: 3px solid #999999;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#wrapper aside{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+}
+#wrapper aside>div{
+    background: white;
+    border: 2px solid #999999;
+    text-align: center;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-bottom:10px;
+    padding-bottom: 5px;
+}
+#wrapper aside div h4{
+    text-transform: uppercase;
+    color:white;
+    background: #808080;
+    margin-top: 0px;
+    margin-bottom: 10px; 
+}
+#wrapper aside #search-div div{
+    margin-bottom: 10px;
+}
+#wrapper aside #search-div div input[type=text]{
+    border: 2px solid #99B1C7;
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+}
+#wrapper aside #search-div div input[type=submit]{
+    border: 2px solid #99B1C7;
+    border-radius: 3px;
+    height: 35px;
+    width: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#wrapper aside #div-with-button input[type=submit]{
+    height: 45px;
+}
+#wrapper aside #search-div>a, #div-with-button>a, #web-hosting>a, .div-a-more>a{
+    display: block;
+}
+#wrapper aside .div-a-only{
+    border: 2px solid #999999;
+  
+}

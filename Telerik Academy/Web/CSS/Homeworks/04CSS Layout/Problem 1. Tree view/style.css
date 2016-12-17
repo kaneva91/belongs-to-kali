@@ -1,0 +1,19 @@
+body{
+    margin: 10;
+    padding: 0;
+}
+main ul li ul{
+    display: none;
+    list-style-type: none;
+    color: gray;
+}
+main li:hover ul{
+    display: block;
+}
+main ul li a{
+    text-decoration: none;
+    color: black;
+}
+main ul li a:hover{
+    text-decoration: underline;
+}

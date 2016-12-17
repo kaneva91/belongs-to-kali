@@ -1,0 +1,37 @@
+table {
+   
+    background-color: dimgray;
+     font-family: Tahoma;
+      font-size: 12px;
+      width: 300px;
+      height: 180px
+   
+}
+thead{
+    color: lightgray;
+	font-size: 20px;
+    height: 30px;
+    
+}
+.left-side{
+    color: silver;
+   font-style: italic;
+   font-size: 12px;
+}
+img{
+    height: 8px;
+    width: 8px;
+}
+.font-light{
+    color: bisque;
+}
+div{
+    color: red;
+    font-weight: bold;
+}
+.font-dark{
+    color: darkgrey;
+}
+.font-orange{
+    color: darkorange;
+}

@@ -1,0 +1,62 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#wrapper{
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 540px; 
+}
+img{
+    width: 150px;
+    height: 110px;
+    border: 2px solid #A4A4A4;
+    display: inline-block;
+}
+h1{
+    font-family:Agency FB, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 40px
+}
+body article{
+    border: 2px solid #A4A4A4;
+    width: 450px;
+    height: 115px;
+    padding: 15px;
+    position: relative;
+    margin: 20px;
+    background: white;
+}
+body article  p{
+    font-size: 14.5px;
+    width: 220px;
+    position: absolute;
+    top: 0px;
+    left: 190px;
+  
+}
+body article p span{
+    font-weight: bold;
+}
+body article .btns{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    bottom: 18px;
+    right: 15px;
+}
+body article .sbm-listen{
+    width: 75px;
+    height: 25px;
+}
+body article .sbm-add{
+    width: 60px;
+    height: 25px;
+}

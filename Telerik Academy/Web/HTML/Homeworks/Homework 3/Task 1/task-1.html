@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table of contents</title>
+</head>
+<body>
+    <Table border = "1px">
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear This Form">
+                </td width=>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr> 
+                <td><b>Last Name</b></td>
+                <td><input type="text" name="Last Name" value="Nakov"></td>
+            </tr>
+            <tr><td><b>First Name</b></td>
+                <td><input type="text" name="Last First" value="Svetlin"></td></tr>
+            <tr>
+                <td><b>Address</b></td>
+                <td><textarea name="Address" id="" cols="18S" rows="3">
+                    17 Hristo Botev Str.
+                    floor 3, ap. 12
+                    </textarea></td>    
+            </tr>
+            <tr>
+                <td><b>City</b></td>
+                <td><input type="text" name="City" value="Kaspichan"></td>
+                <td><b>State</b></td>
+                <td><input type="text" name="State"></td>
+            </tr>
+            <tr>
+                <td><b>Zip/Postal Code</b></td>
+                <td><input type="text" name="Zip Code" value="9325"></td>
+            </tr>
+            <tr>
+                <td><b>Country</b></td>
+                <td>
+                    <select name="Countries" id="">
+                        <option value="1">Bulgaria</option>
+                        <option value="2">Japan</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Phone(country code, area code, number)</b></td>
+                <td>
+                    (+<input type="text" value="359">)
+                    <input type="text" value="88"> - 
+                    <input type="text" value="123456789">
+                </td>
+            </tr>
+            <tr>
+                <td><b>E-mail:</b></td>
+                <td><input type="text" name="Email" value="Nakov@Kaspichan.org"></td>
+            </tr>
+            <tr>
+                <td><b>Birth Date</b></td>
+                <td>
+                    Month <input type="text" value="06">
+                    Day <input type="text" value="14">
+                    Year(4 digit) <input type="text" value="1980">
+                </td>
+            </tr>
+             <tr>
+                    <td><b>Gender</b></td>
+                    <td>
+                        <select name="Gender" id="">
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Starting Date</b></td>
+                    <td><label for="spring">Spring 2006</label>
+                        <input id=" spring"type="radio" name="Start">
+                        <input type="radio" name="Start" label="Summer 2006S">
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Comments/Questions</b></td>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="10">Please send more information.S</textarea>
+                    </td>
+                </tr>
+        </tbody>
+    </Table>
+</body>
+</html>

@@ -1,0 +1,14 @@
+#main-container{
+    width: 700px;
+    font-family: Consolas, sans-serif;
+    color: #0094ff;
+}
+#main-container > div > p{
+    font-weight: bold;
+}
+
+#main-container > div > p:first-letter{
+   font-size: 400%;
+    font-family: Edwardian Script ITC;
+    font-weight: bold;
+}

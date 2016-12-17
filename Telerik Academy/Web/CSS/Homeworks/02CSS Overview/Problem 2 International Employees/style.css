@@ -1,0 +1,42 @@
+table{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background-color: white;
+    border: solid 1px dimgray;
+    border-collapse: collapse;
+    padding: 7px;
+}
+tr{
+    height: 25px;
+}
+td{
+    border: solid 1px dimgray;
+    border-collapse: collapse;
+}
+thead{
+    background-color: green;
+    color: white;
+}
+.silver-line
+{
+    background-color: silver;
+}
+img{
+    width: 5 px;
+    height: 10px;
+}
+.width-name-col{
+    width: 120px;
+}
+.width-city-col
+{
+    width: 80px;
+}
+.width-country-col{
+    width: 100px;
+}
+.width-is-promoted-col{
+    width: 70px;
+}
+
