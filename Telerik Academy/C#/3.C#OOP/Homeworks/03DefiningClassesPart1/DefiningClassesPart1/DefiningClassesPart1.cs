@@ -10,8 +10,8 @@ namespace DefiningClassesPart1
     {
         static void Main(string[] args)
         {
-            BatteryType battType = new BatteryType();
-            Battery gsmBatety = new Battery("Non-removable", 25.34, 1.39,battType);
+          
+            Battery gsmBatety = new Battery("Non-removable", 25.34, 1.39);
             Display gsmDisplay = new Display(4.7, 1000000);
             GSM gsm = new GSM("IPhone 6S", "Apple", 100000, "Me", gsmBatety, gsmDisplay);
         }

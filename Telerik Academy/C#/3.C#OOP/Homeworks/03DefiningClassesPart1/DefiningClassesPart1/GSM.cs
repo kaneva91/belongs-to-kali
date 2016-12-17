@@ -62,7 +62,7 @@ namespace DefiningClassesPart1
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentNullException("Invalid manufacturer name!");
+                    throw new ArgumentException("Invalid manufacturer name!");
                 }
                 this.manufacturer = value;
             }
