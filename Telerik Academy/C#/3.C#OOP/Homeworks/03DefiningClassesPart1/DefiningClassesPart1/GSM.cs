@@ -15,15 +15,15 @@ namespace DefiningClassesPart1
         private Battery batteryInfo;
         private Display displayInfo;
         // Constructors
-        public GSM(string model, string manufactirer)
+        public GSM(string model, string manufacturer)
         {
             this.Model = model;
             this.Manufacturer = manufacturer;
 
         }
 
-        public GSM(string model, string manufactirer, decimal price, string owner)
-            : this(model, manufactirer)
+        public GSM(string model, string manufacturer, decimal price, string owner)
+            : this(model, manufacturer)
         {
             this.Price = price;
             this.Owner = owner;
