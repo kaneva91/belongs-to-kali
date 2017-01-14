@@ -4,32 +4,37 @@ class GCD
 {
     static void Main()
     {
-        int a = int.Parse(Console.ReadLine());
-        int b = int.Parse(Console.ReadLine());
-        int result = 0;
-        if (a == 0)
+        string input = Console.ReadLine();
+        string[] arr = input.Split(' ');
+        int a = int.Parse(arr[0]);
+        int b = int.Parse(arr[1]);
+        int reminder = -1;
+       
+        if (a == 0 || b == 0)
         {
-            Console.WriteLine(b);
-        }
-        else if (b == 0)
-        {
-            Console.WriteLine(b);
+            Console.WriteLine(0);
         }
         else
         {
-            if (a < b)
+            if (a < b) // bitwise reversation of a and b
             {
-                int temp = a;
-                a = b;
-                b = temp;
+                a = a ^ b;
+                b = a ^ b;
+                a = a ^ b;
             }
-            do
+            
+            int division = 0;
+
+            while (reminder != 0)
             {
-            } while (reminder != 0);
-            int max = Math.Max(a, b);
-            int min = Math.Min(a, b);
-            int division = (int)(max / min);
-            int reminder = max - division*min;
+                division = (int)(a / b);
+                reminder = a - division * b;
+                a = b;
+                b = reminder;
+                
+            }
+           
+            Console.WriteLine(a);
         }
     }
 }
