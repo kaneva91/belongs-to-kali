@@ -16,3 +16,4 @@ function isPrime(arr){
     }
     console.log(result);  
 }
+isPrime(2);
